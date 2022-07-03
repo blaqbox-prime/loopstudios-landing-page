@@ -195,8 +195,6 @@ section{
 .creations__grid{
     display: grid;
     grid-template-columns: repeat(4, minmax(auto,260px));
-    /* grid-template-rows: repeat(2, 450px); */
-    /* justify-content:space-between; */
     gap: 3.5em;
 }
 
@@ -207,8 +205,6 @@ section{
     position:relative;
     display: flex;
     flex-direction: column-reverse;
-
-
 }
 
 .creation:hover{
